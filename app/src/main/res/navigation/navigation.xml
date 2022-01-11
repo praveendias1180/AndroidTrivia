@@ -7,5 +7,13 @@
     <fragment
         android:id="@+id/titleFragment"
         android:name="range.quest.android.navigation.TitleFragment"
-        android:label="TitleFragment" />
+        android:label="TitleFragment" >
+        <action
+            android:id="@+id/action_titleFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="range.quest.android.navigation.GameFragment"
+        android:label="GameFragment" />
 </navigation>
