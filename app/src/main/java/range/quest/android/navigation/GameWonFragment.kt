@@ -23,8 +23,8 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
-import com.example.android.navigation.R
-import com.example.android.navigation.databinding.FragmentGameWonBinding
+import range.quest.android.navigation.R
+import range.quest.android.navigation.databinding.FragmentGameWonBinding
 
 
 class GameWonFragment : Fragment() {

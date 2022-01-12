@@ -19,8 +19,8 @@ package range.quest.android.navigation
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.example.android.navigation.R
-import com.example.android.navigation.databinding.ActivityMainBinding
+import range.quest.android.navigation.R
+import range.quest.android.navigation.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -28,7 +28,7 @@ android {
         dataBinding true
     }
     defaultConfig {
-        applicationId 'com.example.android.navigation'
+        applicationId 'range.quest.android.navigation'
         minSdkVersion 26
         targetSdkVersion 30
         vectorDrawables.useSupportLibrary = true

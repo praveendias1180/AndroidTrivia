@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
     app:startDestination="@id/titleFragment">
 
     <fragment
         android:id="@+id/titleFragment"
         android:name="range.quest.android.navigation.TitleFragment"
-        android:label="TitleFragment" >
+        android:label="TitleFragment"
+        tools:layout="@layout/fragment_title" >
         <action
             android:id="@+id/action_titleFragment_to_gameFragment"
             app:destination="@id/gameFragment" />
@@ -15,7 +17,8 @@
     <fragment
         android:id="@+id/gameFragment"
         android:name="range.quest.android.navigation.GameFragment"
-        android:label="GameFragment" >
+        android:label="GameFragment"
+        tools:layout="@layout/fragment_game" >
         <action
             android:id="@+id/action_gameFragment_to_gameOverFragment"
             app:destination="@id/gameOverFragment"
@@ -30,7 +33,8 @@
     <fragment
         android:id="@+id/gameOverFragment"
         android:name="range.quest.android.navigation.GameOverFragment"
-        android:label="GameOverFragment" >
+        android:label="GameOverFragment"
+        tools:layout="@layout/fragment_game_over">
         <action
             android:id="@+id/action_gameOverFragment_to_gameFragment"
             app:destination="@id/gameFragment"
@@ -42,6 +46,7 @@
         android:label="GameWonFragment" >
         <action
             android:id="@+id/action_gameWonFragment_to_gameFragment"
-            app:destination="@id/gameFragment" />
+            app:destination="@id/gameFragment"
+            app:popUpTo="@id/titleFragment" />
     </fragment>
 </navigation>

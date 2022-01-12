@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
-import com.example.android.navigation.databinding.FragmentTitleBinding
-import com.example.android.navigation.R
+import range.quest.android.navigation.databinding.FragmentTitleBinding
+import range.quest.android.navigation.R
 
 class TitleFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,

@@ -24,8 +24,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
-import com.example.android.navigation.R
-import com.example.android.navigation.databinding.FragmentGameBinding
+import range.quest.android.navigation.R
+import range.quest.android.navigation.databinding.FragmentGameBinding
 
 class GameFragment : Fragment() {
     data class Question(
