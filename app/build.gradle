@@ -29,7 +29,7 @@ android {
     }
     defaultConfig {
         applicationId 'com.example.android.navigation'
-        minSdkVersion 19
+        minSdkVersion 26
         targetSdkVersion 30
         vectorDrawables.useSupportLibrary = true
         versionCode 1
