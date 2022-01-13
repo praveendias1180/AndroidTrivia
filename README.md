@@ -7,3 +7,5 @@ The app navigates using buttons, the Action Bar, and the Navigation Drawer.
 Since students haven't yet learned about saving data or the Android lifecycle, it tries to eliminate bugs caused by configuration changes. 
 
 # Android Application
+
+![Android Trivia App](android-trivia.gif)
