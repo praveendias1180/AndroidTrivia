@@ -60,4 +60,8 @@
         android:id="@+id/aboutFragment"
         android:name="range.quest.android.navigation.AboutFragment"
         android:label="@string/title_about_trivia" />
+    <fragment
+        android:id="@+id/rulesFragment"
+        android:name="range.quest.android.navigation.RulesFragment"
+        android:label="RulesFragment" />
 </navigation>
