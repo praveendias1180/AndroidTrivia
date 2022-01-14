@@ -12,3 +12,7 @@ The app navigates using buttons, the Action Bar, and the Navigation Drawer.
 # Sharing #AndroidTriviaQuest
 
 ![Sharing](sharing.gif)
+
+# Naviation Drawer and Navigation Animation
+
+![Drawer and Animation](drawer-animations.gif)
