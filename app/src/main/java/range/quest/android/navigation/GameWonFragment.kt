@@ -57,8 +57,8 @@ class GameWonFragment : Fragment() {
     private fun getShareIntent() : Intent {
         var args = GameWonFragmentArgs.fromBundle(requireArguments())
 
-        Toast.makeText(context, "NumCorrect: ${args.numCorrect}, NumQuestions: ${args.numQuestions}",
-            Toast.LENGTH_LONG).show()
+//        Toast.makeText(context, "NumCorrect: ${args.numCorrect}, NumQuestions: ${args.numQuestions}",
+//            Toast.LENGTH_LONG).show()
 
         val shareIntent = Intent(Intent.ACTION_SEND)
         shareIntent.setType("text/plain")
